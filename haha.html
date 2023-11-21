@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>02850a60f345466aa1175f1c2f0743e5</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="416417e5" class="cell markdown" id="416417e5">
+<h2 id="importing-the-modules">Importing the modules</h2>
+</div>
+<div id="3b4bab39" class="cell code" id="3b4bab39">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&quot;darkgrid&quot;</span>)</span></code></pre></div>
+</div>
+<div id="6c5640e1" class="cell markdown" id="6c5640e1">
+<h2
+id="statistics-of-international-tourists-to-india-1981---2020">Statistics
+of International Tourists to India [1981 - 2020]</h2>
+</div>
+<div id="d2137d71" class="cell markdown" id="d2137d71">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="5c7a35a1" class="cell markdown" id="5c7a35a1">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="c308ee15" class="cell code" id="c308ee15"
+data-outputId="41996d52-4319-4a0e-d9df-ea4daf4c38f5">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting df in a line graph</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>)) <span class="co"># setting figure size</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>sns.set_context(<span class="st">&quot;talk&quot;</span>) <span class="co">#https://seaborn.pydata.org/generated/seaborn.set_context.html</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.lineplot(x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span><span class="st">&#39;value&#39;</span>, hue<span class="op">=</span><span class="st">&#39;Tourists&#39;</span>, data<span class="op">=</span>df)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>g.<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">&quot;Year&quot;</span>,ylabel<span class="op">=</span><span class="st">&quot;Number of tourists (in millions)&quot;</span>, title<span class="op">=</span><span class="st">&quot;International Tourists To India [1981-2020]&quot;</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>plt.xticks(</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">range</span>(<span class="dv">1981</span>,<span class="dv">2021</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    rotation<span class="op">=</span><span class="dv">45</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># horizontalalignment=&#39;right&#39;,</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    fontweight<span class="op">=</span><span class="st">&#39;light&#39;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>plt.plot()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>[]</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/628340152215d423ed2f37acb03742dc45969882.png" /></p>
+</div>
+</div>
+<div id="bfb8bc95" class="cell markdown" id="bfb8bc95">
+<h2 id="quarterly-distribution-of-tourists-2001---2019">Quarterly
+Distribution of Tourists [2001 - 2019]</h2>
+</div>
+<div id="b8f5d61e" class="cell markdown" id="b8f5d61e">
+<h3 id="total-arrivals-2001-2019">Total Arrivals [2001-2019]</h3>
+</div>
+<div id="13de090e" class="cell markdown" id="13de090e">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="1951ff27" class="cell markdown" id="1951ff27">
+<h4 id="visualization-of-the-dataset">Visualization of the Dataset</h4>
+</div>
+<div id="b90af120" class="cell code" id="b90af120"
+data-outputId="e112b32e-a6c9-4ee6-d9bf-7cf05a8a6beb">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the bar (column) graph</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>,<span class="dv">7</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>tot_arrivals[<span class="st">&#39;Year&#39;</span>], y<span class="op">=</span>tot_arrivals[<span class="st">&quot;Arrivals&quot;</span>], palette<span class="op">=</span><span class="st">&#39;viridis&#39;</span>, label<span class="op">=</span><span class="st">&quot;Some Label&quot;</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Total Arrivals [2001-2019]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Year&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Arrivals in million&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># can also set using:</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># g.set(xlabel=&quot;Year&quot;,ylabel=&quot;Arrivals in million&quot;, title=&quot;Total Arrivals [2001-2019]&quot;)</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">14</span>) <span class="co">#labelling the bars with values</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/6c938c2f1a43b8be4e1ca3a747a25a45f6eff22a.png" /></p>
+</div>
+</div>
+<div id="879d56af" class="cell markdown" id="879d56af">
+<h3
+id="quarterly-distribution-of-ftas-during-2017-2018-and-2019">Quarterly
+Distribution of FTAs during 2017, 2018 and 2019</h3>
+</div>
+<div id="6f42018d" class="cell markdown" id="6f42018d">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="9e9804eb" class="cell markdown" id="9e9804eb">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="c208f6e2" class="cell code" id="c208f6e2"
+data-outputId="34122d7b-99bc-444d-d018-19e68d35cb79">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting subplots (pie charts)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">3</span>, sharex<span class="op">=</span><span class="va">True</span>, figsize<span class="op">=</span>(<span class="dv">23</span>,<span class="dv">8</span>))</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Quarterly Distribution of Tourists [2017, 2018, 2019]&#39;</span>,fontsize<span class="op">=</span><span class="dv">30</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>quarter_labels<span class="op">=</span>[<span class="st">&#39;1st Quarter</span><span class="ch">\n</span><span class="st">(Jan-Mar)&#39;</span>,<span class="st">&#39;2nd Quarter</span><span class="ch">\n</span><span class="st">(Apr-Jun)&#39;</span>,<span class="st">&#39;3rd Quarter</span><span class="ch">\n</span><span class="st">(Jul-Sep)&#39;</span>,<span class="st">&#39;4th Quarter</span><span class="ch">\n</span><span class="st">(Oct-Dec)&#39;</span>]</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;yellowgreen&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>, <span class="st">&#39;darkred&#39;</span>, <span class="st">&#39;gold&#39;</span>,<span class="st">&#39;darkgreen&#39;</span>, <span class="st">&#39;red&#39;</span>, <span class="st">&#39;lightsalmon&#39;</span>]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on chart</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].pie(quarterly2017.loc[<span class="dv">16</span>,:].values.tolist(), labels<span class="op">=</span>quarter_labels, colors<span class="op">=</span>colors,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(<span class="st">&quot;2017&quot;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].pie(quarterly2018.loc[<span class="dv">17</span>,:].values.tolist(), labels<span class="op">=</span>quarter_labels, colors<span class="op">=</span>colors,</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_title(<span class="st">&quot;2018&quot;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">2</span>].pie(quarterly2019.loc[<span class="dv">18</span>,:].values.tolist(), labels<span class="op">=</span>quarter_labels, colors<span class="op">=</span>colors,</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">2</span>].set_title(<span class="st">&quot;2019&quot;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co"># plt.legend()</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="co"># handles, labels = plt.gca().get_legend_handles_labels()</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="co"># fig.legend(handles, labels, loc=&#39;upper left&#39;)</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/f91c95de22da8fc32b7c95e7aea54fbdfdb9c488.png" /></p>
+</div>
+</div>
+<div id="49461a4a" class="cell markdown" id="49461a4a">
+<h3
+id="average-percentage-distribution-of-ftas-quarterly-2001---2019">Average
+Percentage Distribution of FTAs Quarterly [2001 - 2019]</h3>
+</div>
+<div id="0a7db203" class="cell markdown" id="0a7db203">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="ae686ae1" class="cell markdown" id="ae686ae1">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="c6d93fad" class="cell code" id="c6d93fad"
+data-outputId="05d87ad6-d4c7-45e7-f79f-4a0b77495075">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on pie chart</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;yellowgreen&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>, <span class="st">&#39;darkred&#39;</span>, <span class="st">&#39;gold&#39;</span>,<span class="st">&#39;orange&#39;</span>, <span class="st">&#39;red&#39;</span>, <span class="st">&#39;lightsalmon&#39;</span>]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">8</span>))</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>plt.pie(quarterly2017.loc[<span class="dv">16</span>,:].values.tolist(), labels<span class="op">=</span>quarter_labels, colors<span class="op">=</span>colors[<span class="dv">1</span>:],</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Average % Distribution of Tourists Quarterly from 2001-2019&quot;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/d90ee60275e012e410ca7ce799d8e5486e9ce1fa.png" /></p>
+</div>
+</div>
+<div id="1fe0c077" class="cell markdown" id="1fe0c077">
+<h2 id="statistics-of-itas-to-india-based-on-purpose-2019">Statistics of
+ITAs to India based on purpose 2019</h2>
+</div>
+<div id="d6a68e5b" class="cell markdown" id="d6a68e5b">
+<h3
+id="statistics-of-itas-to-india-based-on-purpose-2019-regionwise">Statistics
+of ITAs to India based on purpose 2019 [Regionwise]</h3>
+</div>
+<div id="e03a2d92" class="cell markdown" id="e03a2d92">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="d73ae26a" class="cell markdown" id="d73ae26a">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="d403e8b9" class="cell code" id="d403e8b9"
+data-outputId="3b352eae-4c92-45fe-ae56-079e85bb1389">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting area graph</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>regionwise_reason.plot(kind <span class="op">=</span> <span class="st">&#39;area&#39;</span>,</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>              stacked <span class="op">=</span> <span class="va">False</span>,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>              alpha <span class="op">=</span> <span class="fl">0.37</span>, <span class="co"># transparency coefficient, default 0.5, can set between 0 - 1</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>              figsize <span class="op">=</span>(<span class="dv">28</span>,<span class="dv">10</span>),</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>             )</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>g.set_xticks(<span class="bu">range</span>(<span class="bu">len</span>(regionwise_reason.index)))<span class="op">;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>g.set_xticklabels(regionwise_reason.index)<span class="op">;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Regionwise poll on various reasons for visiting India [2019]&#39;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Region&#39;</span>,fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Arrivals (in lakhs)&#39;</span>,fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>plt.xticks()</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying graph</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/ca6e18e2ae4007f911f8f660e956cd6e0983bbc8.png" /></p>
+</div>
+</div>
+<div id="88a9cf95" class="cell markdown" id="88a9cf95">
+<h3 id="tourists-to-india-from-top-5-countries---2019">Tourists to India
+from Top 5 countries - 2019</h3>
+</div>
+<div id="8371ef73" class="cell markdown" id="8371ef73">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="dda0511e" class="cell markdown" id="dda0511e">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="f5758538" class="cell code" id="f5758538"
+data-outputId="cd32fa5c-61a5-4da9-d5b5-72455f1461bb">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combining columns w.r.t nationality into a single column &#39;value&#39; and column &#39;variable&#39; will distinguish these values</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.melt(countrywise,[<span class="st">&#39;Country of Nationality&#39;</span>]).rename(columns<span class="op">=</span>{<span class="st">&quot;variable&quot;</span>:<span class="st">&quot;Reason of Visit&quot;</span>})</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting bar (multicolumn) graph</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># country v / s reason barplot</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>sns.barplot(x <span class="op">=</span><span class="st">&#39;Country of Nationality&#39;</span>,y<span class="op">=</span><span class="st">&#39;value&#39;</span>, hue<span class="op">=</span><span class="st">&quot;Reason of Visit&quot;</span>,data <span class="op">=</span> df, palette<span class="op">=</span><span class="st">&#39;Paired&#39;</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Arrivals (in thousands)&quot;</span>,fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Country of Nationality&#39;</span>,fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Tourists to India from Top 5 countries (2019)&quot;</span>,fontsize<span class="op">=</span><span class="dv">20</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the plot</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/ebc7d59f19cd9f371aab7db5565f3c349b30610e.png" /></p>
+</div>
+</div>
+<div id="5c7aefc3" class="cell markdown" id="5c7aefc3">
+<h3
+id="average-distribution-of-tourists-to-india-based-on-the-purpose-of-visit---2019">Average
+Distribution of Tourists to India based on the purpose of visit -
+2019</h3>
+</div>
+<div id="40aeeba4" class="cell markdown" id="40aeeba4">
+<h4 id="preparing-the-dataset-and-visualizing-it">Preparing the Dataset
+and Visualizing it</h4>
+</div>
+<div id="6e8311a1" class="cell code" id="6e8311a1"
+data-outputId="98fcafe0-f282-45cf-8230-2b7406320ea1">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fetching the grand total information</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>grand_total<span class="op">=</span>country_and_reason[country_and_reason[<span class="st">&#39;Country of Nationality&#39;</span>]<span class="op">==</span><span class="st">&#39;Grand Total&#39;</span>].copy()</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>reason_list<span class="op">=</span>[<span class="st">&#39;Business and Professional(%)&#39;</span>,<span class="st">&#39;Leisure Holiday and Recreation(%)&#39;</span>,<span class="st">&#39;Medical(%)&#39;</span>,<span class="st">&#39;Indian Diaspora(%)&#39;</span>,<span class="st">&#39;Others(%)&#39;</span>]</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;maroon&#39;</span>, <span class="st">&#39;crimson&#39;</span>, <span class="st">&#39;dodgerblue&#39;</span>, <span class="st">&#39;aqua&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>]</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on pie chart</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>pie<span class="op">=</span>plt.pie(grand_total.loc[<span class="dv">83</span>,:].values.tolist()[<span class="dv">3</span>:], colors<span class="op">=</span>colors,</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>,textprops<span class="op">=</span>{<span class="st">&#39;fontsize&#39;</span>: <span class="dv">15</span>},pctdistance <span class="op">=</span> <span class="fl">1.15</span>,)</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co"># plt.legend()</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>plt.legend(pie[<span class="dv">0</span>],reason_list, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.5</span>,<span class="fl">0.7</span>), loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, fontsize<span class="op">=</span><span class="dv">15</span>,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>           bbox_transform<span class="op">=</span>plt.gcf().transFigure)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Average distribution of tourists based on purpose of visit - 2019&quot;</span>,fontsize<span class="op">=</span><span class="dv">22</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/3da4e3cd70e70bb9bd3b2994f04e4b9b02307975.png" /></p>
+</div>
+</div>
+<div id="b436969f" class="cell markdown" id="b436969f">
+<h2
+id="contribution-statistics-to-the-share-market-of-indian-tourism-2017---2019">Contribution
+Statistics to the Share Market of Indian Tourism [2017 - 2019]</h2>
+</div>
+<div id="a96fbbff" class="cell markdown" id="a96fbbff">
+<h3
+id="contribution-to-the-share-market-of-indian-tourism-regionwise-2017---2019">Contribution
+to the Share Market of Indian Tourism regionwise [2017 - 2019]</h3>
+</div>
+<div id="4dd35d67" class="cell markdown" id="4dd35d67">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="886f4d9b" class="cell markdown" id="886f4d9b">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="407332f1" class="cell code" id="407332f1"
+data-outputId="a892f1c6-51e3-45c3-a646-471a09e110ca">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the line graph</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>regionwise_share.plot(kind <span class="op">=</span> <span class="st">&#39;line&#39;</span>,</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>              stacked <span class="op">=</span> <span class="va">False</span>,</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>              alpha <span class="op">=</span> <span class="fl">0.7</span>, <span class="co"># transparency coefficient, default 0.5, can set between 0 - 1</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>              figsize <span class="op">=</span>(<span class="dv">30</span>,<span class="dv">12</span>),</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>             )</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>g.set_xticks(<span class="bu">range</span>(<span class="bu">len</span>(regionwise_share.index)))<span class="op">;</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>g.set_xticklabels(regionwise_share.index)<span class="op">;</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>i<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="co"># for row in regionwise_share.index:</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="co">#     g.text(i, regionwise_share._get_value(row,&#39;Percentage Share - 2017&#39;), regionwise_share._get_value(row,&#39;Percentage Share - 2017&#39;), size=15, verticalalignment=&quot;bottom&quot;, horizontalalignment=&quot;left&quot;)</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="co">#     g.text(i, regionwise_share._get_value(row,&#39;Percentage Share - 2018&#39;), regionwise_share._get_value(row,&#39;Percentage Share - 2018&#39;), size=15, verticalalignment=&quot;top&quot;, horizontalalignment=&quot;right&quot;)</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="co">#     g.text(i, regionwise_share._get_value(row,&#39;Percentage Share - 2019&#39;), regionwise_share._get_value(row,&#39;Percentage Share - 2019&#39;), size=15, verticalalignment=&quot;center&quot;, horizontalalignment=&quot;center&quot;)</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="co">#     i=i+1</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Regionwise </span><span class="sc">% s</span><span class="st">hare on Indian Tourism Market [2017, 2018, 2019]&#39;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Region&#39;</span>,fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;</span><span class="sc">% s</span><span class="st">hare&#39;</span>,fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>plt.xticks()</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/04c55b8dbb1b29852ca610d532dfe05130d8b83c.png" /></p>
+</div>
+</div>
+<div id="ca2e32c3" class="cell markdown" id="ca2e32c3">
+<h3
+id="contribution-to-the-indian-tourism-share-market-countrywise-2017---2019">Contribution
+to the Indian Tourism Share Market countrywise [2017 - 2019]</h3>
+</div>
+<div id="ada74ec5" class="cell markdown" id="ada74ec5">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="1f69bf6b" class="cell markdown" id="1f69bf6b">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="a9f474e2" class="cell code" id="a9f474e2"
+data-outputId="9dd1f77a-e9fd-4005-a24d-66a94fd1b102">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting subplots (pie charts)</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>,<span class="dv">3</span>, sharex<span class="op">=</span><span class="va">True</span>, figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Percentage shares of countries on Indian Tourism [2017, 2018, 2019]&#39;</span>,fontsize<span class="op">=</span><span class="dv">25</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on chart</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;maroon&#39;</span>, <span class="st">&#39;crimson&#39;</span>, <span class="st">&#39;dodgerblue&#39;</span>, <span class="st">&#39;aqua&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>,<span class="st">&#39;yellowgreen&#39;</span>, <span class="st">&#39;gold&#39;</span>]</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co">#2017</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>pie<span class="op">=</span>axes[<span class="dv">0</span>].pie(highest_countrywise_2017[<span class="st">&#39;Percentage Share - 2017&#39;</span>], colors<span class="op">=</span>colors, shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>percents<span class="op">=</span>highest_countrywise_2017[<span class="st">&#39;Percentage Share - 2017&#39;</span>]<span class="op">*</span><span class="dv">100</span><span class="op">/</span>highest_countrywise_2017[<span class="st">&#39;Percentage Share - 2017&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].legend(</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    pie[<span class="dv">0</span>],[<span class="ss">f&#39;</span><span class="sc">{</span>p<span class="sc">:.1f}</span><span class="ss">% </span><span class="sc">{</span>l<span class="sc">}</span><span class="ss">&#39;</span>  <span class="cf">for</span> p ,l <span class="kw">in</span> <span class="bu">zip</span>(percents, highest_countrywise_2017[<span class="st">&#39;Country of Nationality&#39;</span>])],</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    bbox_to_anchor<span class="op">=</span>(<span class="fl">0.2</span>,<span class="fl">0.7</span>),</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, fontsize<span class="op">=</span><span class="dv">15</span>,</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    bbox_transform<span class="op">=</span>plt.gcf().transFigure)</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(<span class="st">&quot;2017&quot;</span>,fontsize<span class="op">=</span><span class="dv">20</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a><span class="co">#2018</span></span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>pie<span class="op">=</span>axes[<span class="dv">1</span>].pie(highest_countrywise_2018[<span class="st">&#39;Percentage Share - 2018&#39;</span>], colors<span class="op">=</span>colors, shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>percents<span class="op">=</span>highest_countrywise_2018[<span class="st">&#39;Percentage Share - 2018&#39;</span>]<span class="op">*</span><span class="dv">100</span><span class="op">/</span>highest_countrywise_2018[<span class="st">&#39;Percentage Share - 2018&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].legend(</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    pie[<span class="dv">0</span>],[<span class="ss">f&#39;</span><span class="sc">{</span>p<span class="sc">:.1f}</span><span class="ss">% </span><span class="sc">{</span>l<span class="sc">}</span><span class="ss">&#39;</span>  <span class="cf">for</span> p ,l <span class="kw">in</span> <span class="bu">zip</span>(percents, highest_countrywise_2018[<span class="st">&#39;Country of Nationality&#39;</span>])],</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    bbox_to_anchor<span class="op">=</span>(<span class="fl">0.48</span>,<span class="fl">0.7</span>),</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>    loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, fontsize<span class="op">=</span><span class="dv">15</span>,</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>    bbox_transform<span class="op">=</span>plt.gcf().transFigure)</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_title(<span class="st">&quot;2018&quot;</span>,fontsize<span class="op">=</span><span class="dv">20</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a><span class="co">#2019</span></span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>pie<span class="op">=</span>axes[<span class="dv">2</span>].pie(highest_countrywise_2019[<span class="st">&#39;Percentage Share - 2019&#39;</span>],  colors<span class="op">=</span>colors, shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>percents<span class="op">=</span>highest_countrywise_2019[<span class="st">&#39;Percentage Share - 2019&#39;</span>]<span class="op">*</span><span class="dv">100</span><span class="op">/</span>highest_countrywise_2019[<span class="st">&#39;Percentage Share - 2019&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">2</span>].legend(</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>    pie[<span class="dv">0</span>],[<span class="ss">f&#39;</span><span class="sc">{</span>p<span class="sc">:.1f}</span><span class="ss">% </span><span class="sc">{</span>l<span class="sc">}</span><span class="ss">&#39;</span>  <span class="cf">for</span> p ,l <span class="kw">in</span> <span class="bu">zip</span>(percents, highest_countrywise_2019[<span class="st">&#39;Country of Nationality&#39;</span>])],</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>    bbox_to_anchor<span class="op">=</span>(<span class="fl">0.76</span>,<span class="fl">0.7</span>),</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>    loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, fontsize<span class="op">=</span><span class="dv">15</span>,</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>    bbox_transform<span class="op">=</span>plt.gcf().transFigure)</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">2</span>].set_title(<span class="st">&quot;2019&quot;</span>,fontsize<span class="op">=</span><span class="dv">20</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a><span class="co"># plt.legend()</span></span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="co"># handles, labels = plt.gca().get_legend_handles_labels()</span></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a><span class="co"># fig.legend(handles, labels, loc=&#39;upper left&#39;)</span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/39c99bbcb2e78d2e3d0a4b9a2174800a3cbd4d9f.png" /></p>
+</div>
+</div>
+<div id="5c12ba88" class="cell markdown" id="5c12ba88">
+<h2 id="tourist-segregation-based-on-age-2001---2019">Tourist
+segregation based on age [2001 - 2019]</h2>
+</div>
+<div id="ce5f19dd" class="cell markdown" id="ce5f19dd">
+<h3 id="ftas-segregated-based-on-age-2001---2019">FTAs segregated based
+on age [2001 - 2019]</h3>
+</div>
+<div id="41a7d554" class="cell markdown" id="41a7d554">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="a689e3d8" class="cell code" id="a689e3d8"
+data-outputId="f758d428-3b46-4c87-a479-76dd5b3c204d">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Renaming the columns</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate<span class="op">=</span>agegroup.copy().rename(columns<span class="op">=</span>{</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 0-14&#39;</span>:<span class="st">&#39;0-14&#39;</span>,</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 15-24&#39;</span>:<span class="st">&#39;15-24&#39;</span>,</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 25-34&#39;</span>:<span class="st">&#39;25-34&#39;</span>,</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 35-44&#39;</span>:<span class="st">&#39;35-44&#39;</span>,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 45-54&#39;</span>:<span class="st">&#39;45-54&#39;</span>,</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 55-64&#39;</span>:<span class="st">&#39;55-64&#39;</span>,</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - 65 and above&#39;</span>:<span class="st">&#39;65 and above&#39;</span>,</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;</span><span class="sc">% d</span><span class="st">istribution by Age-Group (in Year) - Not Reported&#39;</span>:<span class="st">&#39;Not Reported&#39;</span>,</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># converting %ages to actual values and shifting the decimal places by 3 to the left</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;0-14&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;0-14&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;15-24&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;15-24&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;25-34&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;25-34&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;35-44&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;35-44&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;45-54&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;45-54&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;55-64&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;55-64&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;65 and above&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;65 and above&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate[<span class="st">&#39;Not Reported&#39;</span>]<span class="op">=</span>agegroup_elaborate[<span class="st">&#39;Not Reported&#39;</span>]<span class="op">*</span>agegroup_elaborate[<span class="st">&#39;FTAs&#39;</span>]<span class="op">/</span><span class="dv">100</span> <span class="op">*</span> <span class="dv">10</span><span class="op">**-</span><span class="dv">3</span></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>agegroup_elaborate.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>FTAs</th>
+      <th>0-14</th>
+      <th>15-24</th>
+      <th>25-34</th>
+      <th>35-44</th>
+      <th>45-54</th>
+      <th>55-64</th>
+      <th>65 and above</th>
+      <th>Not Reported</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2001</td>
+      <td>2537282</td>
+      <td>177.609740</td>
+      <td>274.026456</td>
+      <td>509.993682</td>
+      <td>535.366502</td>
+      <td>492.232708</td>
+      <td>301.936558</td>
+      <td>169.997894</td>
+      <td>76.118460</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2002</td>
+      <td>2384364</td>
+      <td>219.361488</td>
+      <td>238.436400</td>
+      <td>462.566616</td>
+      <td>515.022624</td>
+      <td>462.566616</td>
+      <td>274.201860</td>
+      <td>183.596028</td>
+      <td>28.612368</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2003</td>
+      <td>2726214</td>
+      <td>196.287408</td>
+      <td>272.621400</td>
+      <td>531.611730</td>
+      <td>588.862224</td>
+      <td>528.885516</td>
+      <td>313.514610</td>
+      <td>209.918478</td>
+      <td>84.512634</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2004</td>
+      <td>3457477</td>
+      <td>293.885545</td>
+      <td>338.832746</td>
+      <td>650.005676</td>
+      <td>736.442601</td>
+      <td>670.750538</td>
+      <td>442.557056</td>
+      <td>283.513114</td>
+      <td>6.914954</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2005</td>
+      <td>3918610</td>
+      <td>337.000460</td>
+      <td>376.186560</td>
+      <td>736.698680</td>
+      <td>834.663930</td>
+      <td>764.128950</td>
+      <td>509.419300</td>
+      <td>340.919070</td>
+      <td>19.593050</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="a6351407" class="cell markdown" id="a6351407">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="ae94d418" class="cell markdown" id="ae94d418">
+<h3
+id="average-age-distribution-of-tourists-based-on-age-2001---2019">Average
+%age distribution of Tourists based on age [2001 - 2019]</h3>
+</div>
+<div id="25854292" class="cell markdown" id="&quot;25854292&quot;">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="4b97b4b3" class="cell markdown" id="4b97b4b3">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="ae5e22dc" class="cell code" id="ae5e22dc"
+data-outputId="de2045b2-499d-4791-e619-19ae138b37bf">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">&#39;maroon&#39;</span>, <span class="st">&#39;crimson&#39;</span>, <span class="st">&#39;dodgerblue&#39;</span>, <span class="st">&#39;aqua&#39;</span>, <span class="st">&#39;lightgreen&#39;</span>,<span class="st">&#39;gold&#39;</span>,<span class="st">&#39;yellowgreen&#39;</span>]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>agegroup_list<span class="op">=</span>[<span class="st">&#39;0-14&#39;</span>,<span class="st">&#39;15-24&#39;</span>,<span class="st">&#39;25-34&#39;</span>,<span class="st">&#39;35-44&#39;</span>,<span class="st">&#39;45-54&#39;</span>,<span class="st">&#39;55-64&#39;</span>,<span class="st">&#39;65 and above&#39;</span>]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on chart</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>pie<span class="op">=</span>plt.pie(avg_agegroup_pctg, colors<span class="op">=</span>colors,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,shadow<span class="op">=</span><span class="va">True</span>, startangle<span class="op">=</span><span class="dv">0</span>,textprops<span class="op">=</span>{<span class="st">&#39;fontsize&#39;</span>: <span class="dv">15</span>},pctdistance <span class="op">=</span> <span class="fl">1.15</span>,)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co"># plt.legend()</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>plt.legend(pie[<span class="dv">0</span>],agegroup_list, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.5</span>,<span class="fl">0.7</span>), loc<span class="op">=</span><span class="st">&quot;upper right&quot;</span>, fontsize<span class="op">=</span><span class="dv">15</span>,</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>           bbox_transform<span class="op">=</span>plt.gcf().transFigure)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Average </span><span class="sc">% o</span><span class="st">f tourists based on age [2001-2019]&quot;</span>,fontsize<span class="op">=</span><span class="dv">20</span>,fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/3ed4cc4ce18f83c4996a3517578bf15630432c68.png" /></p>
+</div>
+</div>
+<div id="4fed0cb1" class="cell markdown" id="4fed0cb1">
+<h2 id="indian-tourism-statewise-statistics-2019---2020">Indian Tourism
+Statewise Statistics [2019 - 2020]</h2>
+</div>
+<div id="c38b0fd0" class="cell markdown" id="c38b0fd0">
+<h3 id="foreign-tourists-per-stateuts-2019---2020">Foreign tourists per
+State/UTs [2019 - 2020]</h3>
+</div>
+<div id="e649ae2e" class="cell markdown" id="e649ae2e">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="09f17f43" class="cell markdown" id="09f17f43">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="43bb384b" class="cell code" id="43bb384b"
+data-outputId="8456b80d-64f3-454f-ec99-b30ccbcf0d58">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combining columns w.r.t &#39;States/UTs&#39; into a single column &#39;value&#39; and column &#39;variable&#39; will distinguish these values</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.melt(foreign_statewise,[<span class="st">&#39;States/UTs&#39;</span>]).rename(columns<span class="op">=</span>{<span class="st">&quot;variable&quot;</span>:<span class="st">&quot;Year&quot;</span>})</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on horizontal bar graph</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>,<span class="dv">50</span>))</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> sns.barplot(x<span class="op">=</span><span class="st">&quot;value&quot;</span>, y<span class="op">=</span><span class="st">&quot;States/UTs&quot;</span>, data<span class="op">=</span>df, hue<span class="op">=</span><span class="st">&#39;Year&#39;</span>, palette<span class="op">=</span><span class="st">&#39;GnBu_d&#39;</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> p <span class="kw">in</span> ax.patches:</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> p.get_width()    <span class="co"># get bar length</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    ax.text(width <span class="op">+</span> <span class="fl">0.5</span>,       <span class="co"># set the text at 1 unit right of the bar</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>            p.get_y() <span class="op">+</span> p.get_height() <span class="op">/</span> <span class="dv">2</span>, <span class="co"># get Y coordinate + X coordinate / 2</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;</span><span class="sc">{:1.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(width), <span class="co"># set variable to display, 2 decimals</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>            ha <span class="op">=</span> <span class="st">&#39;left&#39;</span>,   <span class="co"># horizontal alignment</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>            va <span class="op">=</span> <span class="st">&#39;center&#39;</span>,  <span class="co"># vertical alignment</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>            fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Foreign tourists per State/UTs [2019, 2020]&quot;</span>, fontsize<span class="op">=</span><span class="dv">20</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Arrivals (in lakhs)&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;States/UTs&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>plt.legend(bbox_to_anchor<span class="op">=</span>(<span class="fl">0.99</span>,<span class="fl">0.95</span>), prop<span class="op">=</span>{<span class="st">&#39;size&#39;</span>: <span class="dv">16</span>})</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a><span class="co"># display the chart</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/ed81ffe32b41d0ef133f19be8c0b506e5e4c1c38.png" /></p>
+</div>
+</div>
+<div id="3adb7b48" class="cell markdown" id="3adb7b48">
+<h3 id="domestic-tourists-per-stateuts-2019---2020">Domestic tourists
+per State/UTs [2019 - 2020]</h3>
+</div>
+<div id="51de6edd" class="cell markdown" id="51de6edd">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="579a980e" class="cell markdown" id="579a980e">
+<h4 id="visualization-of-the-dataset">Visualization of the Dataset</h4>
+</div>
+<div id="7eda5e18" class="cell code" id="7eda5e18"
+data-outputId="ebb92631-d9e0-4070-fd70-3e1847c23a59">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combining columns w.r.t &#39;States/UTs&#39; into a single column &#39;value&#39; and column &#39;variable&#39; will distinguish these values</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>df<span class="op">=</span>pd.melt(domestic_statewise,[<span class="st">&#39;States/UTs&#39;</span>]).rename(columns<span class="op">=</span>{<span class="st">&quot;variable&quot;</span>:<span class="st">&quot;Year&quot;</span>})</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on horizontal bar graph</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>,<span class="dv">50</span>))</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> sns.barplot(x<span class="op">=</span><span class="st">&quot;value&quot;</span>, y<span class="op">=</span><span class="st">&quot;States/UTs&quot;</span>, data<span class="op">=</span>df, hue<span class="op">=</span><span class="st">&#39;Year&#39;</span>, palette<span class="op">=</span><span class="st">&#39;flare&#39;</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> p <span class="kw">in</span> ax.patches:</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> p.get_width()    <span class="co"># get bar length</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    ax.text(width <span class="op">+</span> <span class="dv">1</span>,       <span class="co"># set the text at 1 unit right of the bar</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>            p.get_y() <span class="op">+</span> p.get_height() <span class="op">/</span> <span class="dv">2</span>, <span class="co"># get Y coordinate + X coordinate / 2</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;</span><span class="sc">{:1.2f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(width), <span class="co"># set variable to display, 2 decimals</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>            ha <span class="op">=</span> <span class="st">&#39;left&#39;</span>,   <span class="co"># horizontal alignment</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>            va <span class="op">=</span> <span class="st">&#39;center&#39;</span>,  <span class="co"># vertical alignment</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>            fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Domestic tourists per State/UTs [2019, 2020]&quot;</span>, fontsize<span class="op">=</span><span class="dv">20</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Arrivals (in lakhs)&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;States/UTs&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>plt.legend(bbox_to_anchor<span class="op">=</span>(<span class="fl">0.99</span>,<span class="fl">0.95</span>), prop<span class="op">=</span>{<span class="st">&#39;size&#39;</span>: <span class="dv">16</span>})</span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a><span class="co"># display the chart</span></span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/116807c82c4e5ac37317e71c05c06fe4eb5b08cd.png" /></p>
+</div>
+</div>
+<div id="e8eb5020" class="cell markdown" id="e8eb5020">
+<h3 id="total-tourists-per-stateuts-2019---2020">Total tourists per
+State/UTs [2019 - 2020]</h3>
+</div>
+<div id="7024bb21" class="cell markdown" id="7024bb21">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="a4398fd1" class="cell markdown" id="a4398fd1">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="c1265e07" class="cell code" id="c1265e07"
+data-outputId="373e2095-f391-4d67-9456-7208d31ab51d">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the bar graph</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>total_statewise[<span class="st">&#39;States/UTs&#39;</span>], y<span class="op">=</span>total_statewise[<span class="st">&#39;Total Tourists&#39;</span>], palette<span class="op">=</span><span class="st">&#39;YlOrBr_r&#39;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Total Tourists by States/UTs [2019-2020]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;States/UTs&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Total Tourists (in million)&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">15</span>) <span class="co"># labelling the bars</span></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying the chart</span></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/8f1c1a967cddc5f34e6d31fa5d648a22b0f00607.png" /></p>
+</div>
+</div>
+<div id="2e06c1d9" class="cell markdown" id="2e06c1d9">
+<h2 id="popular-monuments-during-201920202021">Popular monuments during
+2019,2020,2021</h2>
+</div>
+<div id="7f7031dd" class="cell markdown" id="7f7031dd">
+<h3 id="top-10-tourism-destinations-visited-by-foreigners-2019">Top 10
+Tourism Destinations visited by foreigners 2019</h3>
+</div>
+<div id="75cf83c2" class="cell markdown" id="75cf83c2">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="8fc1ac46" class="cell markdown" id="8fc1ac46">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="75aa9605" class="cell code" id="75aa9605"
+data-outputId="6d3907e7-b453-40e5-d4ef-92d49b875ca9">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting the bar graph</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>circlewise_tourist[<span class="st">&#39;Circle&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], y<span class="op">=</span>circlewise_tourist[<span class="st">&#39;Foreign-2019-20&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], palette<span class="op">=</span><span class="st">&#39;mako&#39;</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Top 10 tourist destinations visited by foreigners [2019]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Circle&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Tourists (in thousands)&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">15</span>) <span class="co"># labelling the bars</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying the chart</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/959da101e8ccbabd7ce79ce190711fe31210528b.png" /></p>
+</div>
+</div>
+<div id="57926ffe" class="cell markdown" id="57926ffe">
+<h3
+id="top-10-tourism-destinations-visited-by-domestic-travellers-2019">Top
+10 Tourism Destinations visited by domestic travellers 2019</h3>
+</div>
+<div id="57cc2d6d" class="cell markdown" id="57cc2d6d">
+<h4 id="preparing-and-visualizing-the-dataset">Preparing and Visualizing
+the Dataset</h4>
+</div>
+<div id="05760096" class="cell code" id="&quot;05760096&quot;"
+data-outputId="d8bdd07c-f0b1-4f58-9cff-57d2539eeb1d">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sorting by Domestic-2019-20 in descending order</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>circlewise_tourist.sort_values(by<span class="op">=</span>[<span class="st">&#39;Domestic-2019-20&#39;</span>],ascending<span class="op">=</span><span class="va">False</span>,inplace<span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting data on bar graph</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>circlewise_tourist[<span class="st">&#39;Circle&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], y<span class="op">=</span>circlewise_tourist[<span class="st">&#39;Domestic-2019-20&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], palette<span class="op">=</span><span class="st">&#39;mako&#39;</span>)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Top 10 tourist destinations visited by domestic tourists [2019]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Circle&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Tourists (in thousands)&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">15</span>) <span class="co">#labelling bars</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/683f5f1bf2d1e8d7e0c6a8b2a11b7c6c55540485.png" /></p>
+</div>
+</div>
+<div id="609f43d7" class="cell markdown" id="609f43d7">
+<h3 id="top-10-monuments-visited-by-foreigners-2019">Top 10 Monuments
+visited by foreigners 2019</h3>
+</div>
+<div id="d62ee468" class="cell markdown" id="d62ee468">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="c4a6ef6c" class="cell markdown" id="c4a6ef6c">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="4e920e78" class="cell code" id="4e920e78"
+data-outputId="2ff04309-e3b3-4579-d469-d8f2896dc0b4">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying data on bar chart</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># picking top 10 visited monuments</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>monument_tourist[<span class="st">&#39;Name of the Monument&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>]</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>[ <span class="bu">str</span>(i) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">11</span>)], y<span class="op">=</span>monument_tourist[<span class="st">&#39;Foreign-2019-20&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], palette<span class="op">=</span><span class="st">&#39;rocket&#39;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Top 10 monuments visited by foreigners [2019]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Monuments&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Tourists (in thousands)&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Textbox contents</span></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>text<span class="op">=</span><span class="st">&quot;X-axis:</span><span class="ch">\n\n</span><span class="st">&quot;</span></span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,value <span class="kw">in</span> <span class="bu">zip</span>(<span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">11</span>),x):</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>    text<span class="op">=</span> text <span class="op">+</span> <span class="bu">str</span>(i) <span class="op">+</span> <span class="st">&quot; -  &quot;</span> <span class="op">+</span> value <span class="op">+</span> <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span></span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>plt.text(<span class="fl">6.2</span>, <span class="dv">300</span>, text, fontsize <span class="op">=</span> <span class="dv">15</span>,</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>         bbox <span class="op">=</span> <span class="bu">dict</span>(facecolor <span class="op">=</span> <span class="st">&#39;white&#39;</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>))</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">15</span>) <span class="co">#labelling bars</span></span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/0e349c42289942450ea1e4110efceefcf89330b1.png" /></p>
+</div>
+</div>
+<div id="d27c385b" class="cell markdown" id="d27c385b">
+<h3 id="top-10-monuments-visited-by-domestic-travellers-2019">Top 10
+Monuments visited by domestic travellers 2019</h3>
+</div>
+<div id="2e63d648" class="cell markdown" id="2e63d648">
+<h4 id="preparing-and-visualizing-the-dataset">Preparing and Visualizing
+the Dataset</h4>
+</div>
+<div id="8169287c" class="cell code" id="8169287c"
+data-outputId="cd92867d-5b16-4305-e882-7f7819752850">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sorting by Domestic-2019-20 in descending order</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>monument_tourist.sort_values(by<span class="op">=</span>[<span class="st">&#39;Domestic-2019-20&#39;</span>],ascending<span class="op">=</span><span class="va">False</span>,inplace<span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying data on bar chart</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co"># picking top 10 visited monuments</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>monument_tourist[<span class="st">&#39;Name of the Monument&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>]</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.barplot(x<span class="op">=</span>[ <span class="bu">str</span>(i) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">11</span>)], y<span class="op">=</span>monument_tourist[<span class="st">&#39;Domestic-2019-20&#39;</span>].iloc[<span class="dv">0</span>:<span class="dv">10</span>], palette<span class="op">=</span><span class="st">&#39;rocket&#39;</span>)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Top 10 monuments visited by domestic tourists [2019]&quot;</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Monuments&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Tourists (in thousands)&quot;</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>plt.xticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>plt.yticks(fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Textbox contents</span></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>text<span class="op">=</span><span class="st">&quot;X-axis:</span><span class="ch">\n\n</span><span class="st">&quot;</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,value <span class="kw">in</span> <span class="bu">zip</span>(<span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">11</span>),x):</span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>    text<span class="op">=</span> text <span class="op">+</span> <span class="bu">str</span>(i) <span class="op">+</span> <span class="st">&quot; -  &quot;</span> <span class="op">+</span> value <span class="op">+</span> <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span></span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>plt.text(<span class="fl">6.2</span>, <span class="dv">2000</span>, text, fontsize <span class="op">=</span> <span class="dv">15</span>,</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>         bbox <span class="op">=</span> <span class="bu">dict</span>(facecolor <span class="op">=</span> <span class="st">&#39;white&#39;</span>, alpha <span class="op">=</span> <span class="fl">0.5</span>))</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>g.bar_label(g.containers[<span class="dv">0</span>], fontsize<span class="op">=</span><span class="dv">15</span>) <span class="co">#labelling bars</span></span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying chart</span></span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/a8767c219826905227258eb7d80b5c5010c3533c.png" /></p>
+</div>
+</div>
+<div id="18c7b481" class="cell markdown" id="18c7b481">
+<h2 id="position-of-indian-tourism-in-the-world-2001---2021">Position of
+Indian Tourism in the world [2001 - 2021]</h2>
+</div>
+<div id="b130f87c" class="cell markdown" id="b130f87c">
+<h4 id="preparing-the-dataset">Preparing the Dataset</h4>
+</div>
+<div id="1932fb48" class="cell markdown" id="1932fb48">
+<h4 id="visualizing-the-dataset">Visualizing the Dataset</h4>
+</div>
+<div id="14b673a5" class="cell code" id="14b673a5"
+data-outputId="b296460e-1d36-4210-d1b4-13ea9e9fcaa0">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df=pd.melt(worldvsindia_rank,[&#39;Year&#39;,&#39;Rank of India&#39;]).rename(columns={&quot;variable&quot;:&quot;World vs India&quot;})</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># displaying data on line chart</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">8</span>))</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># sns.set_context(&quot;talk&quot;)</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>g<span class="op">=</span>sns.lineplot(x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span><span class="st">&#39;India - Number (in million)&#39;</span>, data<span class="op">=</span>worldvsindia_rank, marker<span class="op">=</span> <span class="st">&#39;v&#39;</span>, markersize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>g.<span class="bu">set</span>(xlabel<span class="op">=</span><span class="st">&quot;Year&quot;</span>,ylabel<span class="op">=</span><span class="st">&quot;Number of tourists (in million)&quot;</span>, title<span class="op">=</span><span class="st">&quot;Indian Tourism rank in the world [2001-2019]&quot;</span>)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>plt.xticks(</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">range</span>(<span class="dv">2001</span>,<span class="dv">2022</span>),</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    fontweight<span class="op">=</span><span class="st">&#39;light&#39;</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="co"># label markers with ranks</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x,index <span class="kw">in</span> <span class="bu">zip</span>(g.get_xticks(),worldvsindia_rank.index):</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>    g.text(x,worldvsindia_rank._get_value(index,<span class="st">&#39;India - Number (in million)&#39;</span>)<span class="op">+</span><span class="fl">0.5</span>, worldvsindia_rank._get_value(index,<span class="st">&#39;Rank of India&#39;</span>),size<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a><span class="co"># display the chart</span></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>plt.plot()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="52">
+<pre><code>[]</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1e2b811ebd934f9f8401c1c480546b3e/bfef1f5168c499bab4dc9be94b21d78e6e3972fa.png" /></p>
+</div>
+</div>
+<div id="oDosfzmnATpo" class="cell code" data-execution_count="1"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="oDosfzmnATpo" data-outputId="e20775f1-d339-4dfb-fff4-bdb759decccf">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>jupyter nbconvert <span class="op">--</span>to html India Tourism Analysis.ipynb</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[NbConvertApp] WARNING | pattern &#39;India&#39; matched no files
+[NbConvertApp] WARNING | pattern &#39;Tourism&#39; matched no files
+[NbConvertApp] WARNING | pattern &#39;Analysis.ipynb&#39; matched no files
+This application is used to convert notebook files (*.ipynb)
+        to various other formats.
+
+        WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+=======
+The options below are convenience aliases to configurable class-options,
+as listed in the &quot;Equivalent to&quot; description-line of the aliases.
+To see all configurable class-options for some &lt;cmd&gt;, use:
+    &lt;cmd&gt; --help-all
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+    Equivalent to: [--Application.log_level=10]
+--show-config
+    Show the application&#39;s configuration (human-readable format)
+    Equivalent to: [--Application.show_config=True]
+--show-config-json
+    Show the application&#39;s configuration (json format)
+    Equivalent to: [--Application.show_config_json=True]
+--generate-config
+    generate default config file
+    Equivalent to: [--JupyterApp.generate_config=True]
+-y
+    Answer yes to any questions instead of prompting.
+    Equivalent to: [--JupyterApp.answer_yes=True]
+--execute
+    Execute the notebook prior to export.
+    Equivalent to: [--ExecutePreprocessor.enabled=True]
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if &#39;--execute&#39; was specified, too.
+    Equivalent to: [--ExecutePreprocessor.allow_errors=True]
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename &#39;notebook.*&#39;
+    Equivalent to: [--NbConvertApp.from_stdin=True]
+--stdout
+    Write notebook output to stdout instead of files.
+    Equivalent to: [--NbConvertApp.writer_class=StdoutWriter]
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only
+            relevant when converting to notebook format)
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory=]
+--clear-output
+    Clear output of current file and save in place,
+            overwriting the existing notebook.
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory= --ClearOutputPreprocessor.enabled=True]
+--no-prompt
+    Exclude input and output prompts from converted document.
+    Equivalent to: [--TemplateExporter.exclude_input_prompt=True --TemplateExporter.exclude_output_prompt=True]
+--no-input
+    Exclude input cells and output prompts from converted document.
+            This mode is ideal for generating code-free reports.
+    Equivalent to: [--TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input=True --TemplateExporter.exclude_input_prompt=True]
+--allow-chromium-download
+    Whether to allow downloading chromium if no suitable version is found on the system.
+    Equivalent to: [--WebPDFExporter.allow_chromium_download=True]
+--disable-chromium-sandbox
+    Disable chromium security sandbox when converting to PDF..
+    Equivalent to: [--WebPDFExporter.disable_sandbox=True]
+--show-input
+    Shows code input. This flag is only useful for dejavu users.
+    Equivalent to: [--TemplateExporter.exclude_input=False]
+--embed-images
+    Embed the images as base64 dataurls in the output. This flag is only useful for the HTML/WebPDF/Slides exports.
+    Equivalent to: [--HTMLExporter.embed_images=True]
+--sanitize-html
+    Whether the HTML in Markdown cells and cell outputs should be sanitized..
+    Equivalent to: [--HTMLExporter.sanitize_html=True]
+--log-level=&lt;Enum&gt;
+    Set the log level by value or name.
+    Choices: any of [0, 10, 20, 30, 40, 50, &#39;DEBUG&#39;, &#39;INFO&#39;, &#39;WARN&#39;, &#39;ERROR&#39;, &#39;CRITICAL&#39;]
+    Default: 30
+    Equivalent to: [--Application.log_level]
+--config=&lt;Unicode&gt;
+    Full path of a config file.
+    Default: &#39;&#39;
+    Equivalent to: [--JupyterApp.config_file]
+--to=&lt;Unicode&gt;
+    The export format to be used, either one of the built-in formats
+            [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;]
+            or a dotted object name that represents the import path for an
+            ``Exporter`` class
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.export_format]
+--template=&lt;Unicode&gt;
+    Name of the template to use
+    Default: &#39;&#39;
+    Equivalent to: [--TemplateExporter.template_name]
+--template-file=&lt;Unicode&gt;
+    Name of the template file to use
+    Default: None
+    Equivalent to: [--TemplateExporter.template_file]
+--theme=&lt;Unicode&gt;
+    Template specific theme(e.g. the name of a JupyterLab CSS theme distributed
+    as prebuilt extension for the lab template)
+    Default: &#39;light&#39;
+    Equivalent to: [--HTMLExporter.theme]
+--sanitize_html=&lt;Bool&gt;
+    Whether the HTML in Markdown cells and cell outputs should be sanitized.This
+    should be set to True by nbviewer or similar tools.
+    Default: False
+    Equivalent to: [--HTMLExporter.sanitize_html]
+--writer=&lt;DottedObjectName&gt;
+    Writer class used to write the
+                                        results of the conversion
+    Default: &#39;FilesWriter&#39;
+    Equivalent to: [--NbConvertApp.writer_class]
+--post=&lt;DottedOrNone&gt;
+    PostProcessor class used to write the
+                                        results of the conversion
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.postprocessor_class]
+--output=&lt;Unicode&gt;
+    overwrite base name use for output files.
+                can only be used when converting one notebook at a time.
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.output_base]
+--output-dir=&lt;Unicode&gt;
+    Directory to write output(s) to. Defaults
+                                  to output to the directory of each notebook. To recover
+                                  previous default behaviour (outputting to the current
+                                  working directory) use . as the flag value.
+    Default: &#39;&#39;
+    Equivalent to: [--FilesWriter.build_directory]
+--reveal-prefix=&lt;Unicode&gt;
+    The URL prefix for reveal.js (version 3.x).
+            This defaults to the reveal CDN, but can be any url pointing to a copy
+            of reveal.js.
+            For speaker notes to work, this must be a relative path to a local
+            copy of reveal.js: e.g., &quot;reveal.js&quot;.
+            If a relative path is given, it must be a subdirectory of the
+            current directory (from which the server is run).
+            See the usage documentation
+            (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow)
+            for more details.
+    Default: &#39;&#39;
+    Equivalent to: [--SlidesExporter.reveal_url_prefix]
+--nbformat=&lt;Enum&gt;
+    The nbformat version to write.
+            Use this to downgrade notebooks.
+    Choices: any of [1, 2, 3, 4]
+    Default: 4
+    Equivalent to: [--NotebookExporter.nbformat_version]
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to html
+
+            Options include [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;].
+
+            &gt; jupyter nbconvert --to latex mynotebook.ipynb
+
+            Both HTML and LaTeX support multiple output templates. LaTeX includes
+            &#39;base&#39;, &#39;article&#39; and &#39;report&#39;.  HTML includes &#39;basic&#39;, &#39;lab&#39; and
+            &#39;classic&#39;. You can specify the flavor of the format used.
+
+            &gt; jupyter nbconvert --to html --template lab mynotebook.ipynb
+
+            You can also pipe the output to stdout, rather than a file
+
+            &gt; jupyter nbconvert mynotebook.ipynb --stdout
+
+            PDF is generated via latex
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to pdf
+
+            You can get (and serve) a Reveal.js-powered slideshow
+
+            &gt; jupyter nbconvert myslides.ipynb --to slides --post serve
+
+            Multiple notebooks can be given at the command line in a couple of
+            different ways:
+
+            &gt; jupyter nbconvert notebook*.ipynb
+            &gt; jupyter nbconvert notebook1.ipynb notebook2.ipynb
+
+            or you can specify the notebooks list in a config file, containing::
+
+                c.NbConvertApp.notebooks = [&quot;my_notebook.ipynb&quot;]
+
+            &gt; jupyter nbconvert --config mycfg.py
+
+To see all available configurables, use `--help-all`.
+
+</code></pre>
+</div>
+</div>
+<div id="u9lkgqKeAevx" class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:310}"
+id="u9lkgqKeAevx" data-outputId="7476d470-f620-41ff-bab7-1976006a6176">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>files.download(<span class="st">&#39;India Tourism Analysis.html&#39;</span>)</span></code></pre></div>
+<div class="output error" data-ename="FileNotFoundError"
+data-evalue="ignored">
+<pre><code>---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+&lt;ipython-input-2-d3ca20ad6d1e&gt; in &lt;cell line: 2&gt;()
+      1 from google.colab import files
+----&gt; 2 files.download(&#39;India Tourism Analysis.html&#39;)
+
+/usr/local/lib/python3.10/dist-packages/google/colab/files.py in download(filename)
+    223   if not _os.path.exists(filename):
+    224     msg = &#39;Cannot find file: {}&#39;.format(filename)
+--&gt; 225     raise FileNotFoundError(msg)  # pylint: disable=undefined-variable
+    226 
+    227   comm_manager = _IPython.get_ipython().kernel.comm_manager
+
+FileNotFoundError: Cannot find file: India Tourism Analysis.html
+</code></pre>
+</div>
+</div>
+</body>
+</html>
